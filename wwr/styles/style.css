@@ -269,4 +269,141 @@ main {
 }
 
 
+         /* New css file for rivers page */
+
+main {
+    height: 600px;
+    width: 1150px;
+    background-color: cornflowerblue;
+    margin: 0;
+    border: 4px solid whitesmoke;
+    box-sizing: border-box;
+    padding: 75px;
+    margin-top: 110px;
+}
+
+#heros {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: -100px;
+}
+
+
+#heros-transparency {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-pic {
+    width: 1600px;
+    height: 75%;
+    border: 4px solid bisque;
+    align-items: center;
+}
+
+#heros-text {
+    text-align: center;
+    margin-top: 100px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#heros-text h1 {
+    color:rgb(82, 193, 201);
+}
+
+#heros-text h4 {
+    color: white;
+}
+
+.Read:hover {
+    background-color: aqua;
+    text-decoration: solid, underline; 
+}
+
+.Read {
+    background-color: #d9c2a3;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px 0px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.rivers-title {
+    font-family: Roboto;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-img {
+    border: 10px solid rgb(82, 44, 44);
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.rivers-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.rivers-grid {
+    margin: 200px 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 0px;
+}
+
+div footer {
+    background-color: a2d2ff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 50px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    color: white;
+    border: 5px solid rgb(153, 116, 47);
+}
+
+.FAQ {
+    background-color: gray;
+    line-height: 1.em;
+    padding: 35px;
+    color: whitesmoke;
+    border: 3px solid white;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 250%;
+    display: block;
+    margin: 0 auto;
+}
+
+.See:hover {
+    background-color: aqua;
+}
+
+.See {
+    background-color: #d9c2a3;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px 0px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.utah-rivers-card {
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+.grand-card {
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
 
