@@ -1,4 +1,4 @@
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -38,7 +38,7 @@ h2  {
     font-size: 2rem;
     font-family: 'Fredoka One', cursive;
     font-weight: 100;
-    color:yellow;
+    color: #a3d9ff;
     margin-top: 50px;
     position: relative;
 }
@@ -47,7 +47,7 @@ header  {
     width: 100%;
     display: grid;
     grid-template-columns: 160px 1fr;
-    background-color: #004a9e;
+    background-color: #94c5e8;
     color: white;
     position: sticky;
     top: 0;
@@ -87,7 +87,7 @@ header picture  {
     flex: 1 1 100%;
     text-align: center;
     border: 1px solid white;
-    background-color: gray;
+    background-color: #7e6b8f;
     padding: 10px 0;
     list-style: none;
 }
@@ -143,7 +143,7 @@ a   {
 }
 
 .call-to-action     {
-    background-color: red;
+    background-color: #94c538;
     border: 2px solid white;
     border-radius: 5% 25%;
     color: white;
@@ -162,7 +162,7 @@ a   {
 }
 
 .line-1   {
-    background-color: #004a9e;
+    background-color: #94c5e8;
     border: 1px solid #FFF1D1;
     height: 1px; 
     margin-top: -4px;
@@ -173,7 +173,7 @@ a   {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    background-color: #004a9e;
+    background-color: #94c5e8;
     padding: 50px 0;
     color: white;
 }
@@ -234,7 +234,7 @@ a   {
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #004a9e;
+    background-color: #94c5e8;
     padding: 50px 0;
     color: white;
 }
@@ -252,7 +252,7 @@ a   {
     justify-content: center;
     text-align: center;
     column-gap: 2rem;
-    background-color: #004a9e;
+    background-color: #94c5e8;
     padding: 50px 0;
     color: white;
 }
@@ -297,7 +297,7 @@ a   {
 }
 
 .apply  {
-    background-color: red;
+    background-color: #96e6b3;
     padding: 12px 80px;
     color: white;
     margin: 0 0 0 10rem;
@@ -316,7 +316,7 @@ a   {
 }
 
 footer  {
-    background-color: #004a9e;
+    background-color: #94c5e8;
     margin-bottom: 10px;
     padding-bottom: 20px;
 }
